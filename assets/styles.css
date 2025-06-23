@@ -1,0 +1,400 @@
+/* Main styling */
+.main > div {
+    padding-top: 2rem;
+}
+
+/* Title styling */
+.main-title {
+    text-align: center;
+    color: #201eaf;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Subtitle styling */
+.subtitle {
+    text-align: center;
+    color: #5a5967;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+
+/* Input container styling */
+.input-container {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    margin-bottom: 1rem;
+}
+
+/* Result container styling */
+.result-container {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    margin-bottom: 1rem;
+    min-height: 500px;
+}
+
+/* Section headers */
+.section-header {
+    color: rgba(225, 14, 14, 0.379);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Input styling */
+.stTextInput > div > div > input {
+    background-color: rgba(255,255,255,0.9) !important;
+    border: 2px solid #4f46e5 !important;
+    border-radius: 10px !important;
+    padding: 0.75rem !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+}
+
+.stTextInput > div > div > input:focus {
+    border-color: #7c3aed !important;
+    box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.1) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Label styling */
+.stTextInput > label {
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 1.1rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* Form submit button styling */
+.stFormSubmitButton > button {
+    background: linear-gradient(45deg, #ff6b6b, #ee5a24) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 0.75rem 2rem !important;
+    font-size: 1.1rem !important;
+    font-weight: bold !important;
+    box-shadow: 0 5px 15px rgba(238, 90, 36, 0.4) !important;
+    transition: all 0.3s ease !important;
+    width: 100% !important;
+    height: 3rem !important;
+}
+
+.stFormSubmitButton > button:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 25px rgba(238, 90, 36, 0.6) !important;
+    background: linear-gradient(45deg, #ee5a24, #ff6b6b) !important;
+}
+
+.stFormSubmitButton > button:active {
+    transform: translateY(-1px) !important;
+}
+
+/* Regular button styling for reset button */
+.stButton > button {
+    background: linear-gradient(45deg, #6366f1, #8b5cf6) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 0.75rem 2rem !important;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    box-shadow: 0 5px 15px rgba(99, 102, 241, 0.4) !important;
+    transition: all 0.3s ease !important;
+    width: 100% !important;
+    height: 3rem !important;
+}
+
+.stButton > button:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 25px rgba(99, 102, 241, 0.6) !important;
+    background: linear-gradient(45deg, #8b5cf6, #6366f1) !important;
+}
+
+/* Result card styling */
+.result-card {
+    /* background: rgba(0, 0, 0, 0.95); */
+    padding: 2rem;
+    border: white;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(255, 253, 253, 0.1);
+    margin: 1rem 0;
+}
+
+.re
+
+/* Info cards */
+.info-card {
+    background: rgba(114, 92, 92, 0.9);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+    border-left: 5px solid #4f46e5;
+}
+
+/* Success result styling */
+.success-result {
+    background: #00ff4c;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+
+.success-title {
+    color: #166534;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.success-list {
+    text-align: left;
+    color: #af7812;
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+
+/* Warning result styling */
+/* buat warning */
+.warning-result {
+    background: #454182;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    box-shadow: #9695b0;
+}
+
+.warning-title {
+    color: #f3f3f3;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.warning-list {
+    text-align: left;
+    color: #efecec;
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+/* Default state styling */
+.default-state {
+    color: #6b7280;
+    margin-bottom: 20rem;
+}
+
+.default-description {
+    color: #9ca3af;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.requirements-title {
+    color: #4f46e5;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.requirements-list {
+    text-align: left;
+    color: #6b7280;
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+/* Error styling */
+.error-title {
+    color: #ef4444;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.error-message {
+    color: #dc2626;
+    margin-bottom: 1rem;
+}
+
+.error-help {
+    color: #6b7280;
+}
+
+/* Result titles */
+.high-risk-title {
+    color: #ef4444;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.low-risk-title {
+    color: #10b981;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.result-message {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+
+/* Data summary styling */
+.data-summary {
+    background: rgba(255,255,255,0.9);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+    border-left: 5px solid #4f46e5;
+}
+
+.data-item {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    color: #6b7280;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+.disclaimer {
+    font-weight: bold;
+    color: #ef4444;
+}
+
+/* Tips box styling */
+.tips-box {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: rgba(79, 70, 229, 0.1);
+    border-radius: 8px;
+}
+
+.tips-text {
+    color: #4f46e5;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Spinner overlay */
+.spinner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.spinner-text {
+    color: #6b7280;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+/* Hide default Streamlit elements */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+.stDeployButton {
+    visibility: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* Section subtitle styling */
+.section-subtitle {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+/* Footer credits */
+.footer-credits {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #9ca3af;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+    }
+    
+    .input-container,
+    .result-container {
+        padding: 1.5rem;
+    }
+    
+    .section-header {
+        font-size: 1.3rem;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .main-title {
+        color: #60a5fa;
+    }
+    
+    .subtitle {
+        color: #9ca3af;
+    }
+    
+    .default-description {
+        color: #6b7280;
+    }
+    
+    .requirements-list {
+        color: #9ca3af;
+    }
+    
+    .footer {
+        color: #9ca3af;
+        border-top-color: #374151;
+    }
+}
