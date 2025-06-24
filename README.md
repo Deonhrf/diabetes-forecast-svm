@@ -11,7 +11,7 @@ Membuat model machine learning yang dapat mengklasifikasikan nasabah kedalam dua
 	0 : Pasien diprediksi tidak diabetes
 
 # Dataset
-Dalam membangun model klasifikasi yang mampu memrediksi secara akurat kemungkinan seorang pasien mengalami diabetes. Dataset yang digunakan “diabetes.csv” yang diperoleh dari Kaggele. Dataset ini berisi informasi berbagai riwayat pasien. Dataset ini telah diproses dan disiapkan untuk melatih model Machine Learning.
+Dalam membangun model klasifikasi yang mampu memrediksi secara akurat kemungkinan seorang pasien mengalami diabetes. Dataset yang digunakan “Diabetes.csv” yang diperoleh dari Kaggele. Dataset ini berisi informasi berbagai riwayat pasien. Dataset ini telah diproses dan disiapkan untuk melatih model Machine Learning.
 
 # Teknologi
 -	Python – Pandas, Numpy, Matplotpib, Seaborn
