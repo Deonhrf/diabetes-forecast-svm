@@ -1,4 +1,6 @@
 # diabetes-forecast-svm
+![Uploading image.png…]()
+
 Repository ini berisi implementasi model Machine Learning menggunakan algoritma Support Vector Marchines untuk memprediksi penyakit diabetes berdasarkan 
 
 
